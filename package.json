@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build": "ls"
+    "vercel-build": "ls node_modules/puppeteer-core"
   },
   "author": "fjavier02",
   "dependencies": {
