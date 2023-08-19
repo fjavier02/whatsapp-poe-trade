@@ -1,9 +1,10 @@
-import Sequelize from 'sequelize';
-import mysql2 from 'mysql2'; // Needed to fix sequelize issues with WebPack
+const Sequelize = require('sequelize');
+const mysql2 = require('mysql2');
+require('dotenv').config()
 
 const sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
+  process.env.DB_DBNAME,
+  process.env.DB_USERNAME,
   process.env.DB_PASSWORD,
   {
     dialect: 'mysql',

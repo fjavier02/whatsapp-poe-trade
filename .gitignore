@@ -5,3 +5,4 @@ components/last.qr
 .wwebjs_auth/
 .vercel
 .env
+.wwebjs_cache
