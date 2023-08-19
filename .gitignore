@@ -6,4 +6,4 @@ components/last.qr
 .vercel
 .env
 .wwebjs_cache
-./package-lock.json
+package-lock.json
