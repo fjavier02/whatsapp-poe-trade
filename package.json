@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-poe-trade",
+  "version": "0.0.1",
+  "description": "A check Trade for Path of Exile with notification for whatsapp-web.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-build": "echo hello"
+  },
+  "author": "fjavier02",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "mysql2": "^3.6.0",
+    "nodemon": "^2.0.15",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.32.1",
+    "shelljs": "^0.8.5",
+    "valid-url": "^1.0.9",
+    "whatsapp-web.js": "^1.21.0"
+  }  
+}
