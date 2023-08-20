@@ -166,7 +166,7 @@ client.on("message", async (message) => {
   }
 });
 
-client.initialize();
+client.initialize().catch(console.log);
 
 var verifyItems = function () {
   var intr = setInterval(async function () {
