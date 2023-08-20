@@ -17,11 +17,12 @@
     "fs": "0.0.1-security",
     "mysql2": "^3.6.0",
     "nodemon": "^2.0.15",
+    "puppeteer": "^21.1.0",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
     "sequelize": "^6.32.1",
     "shelljs": "^0.8.5",
     "valid-url": "^1.0.9",
     "whatsapp-web.js": "^1.21.1"
-  }  
+  }
 }
